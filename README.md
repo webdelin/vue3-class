@@ -1,4 +1,4 @@
-# vue3-class
+# Vue3-class-typescript-decorators
 
 ## Project setup
 ```
