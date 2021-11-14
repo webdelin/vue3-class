@@ -296,8 +296,9 @@
   </div>
 </template>
 
-<script lang="ts">
-import { Vue } from "vue-class-component";
+<script setup lang="ts">
+import { ref } from "vue";
+
 interface User {
   name: string;
   email: string;
@@ -306,16 +307,15 @@ interface User {
   status: string;
   role: string;
 }
-export default class Home extends Vue {
-  public testUser: User = {
-    name: "John Doe",
-    email: "john@example.com",
-    title: "Software Engineer",
-    title2: "Web dev",
-    status: "Active",
-    role: "Owner",
-  };
 
-  public users = [...Array(10).keys()].map(() => this.testUser);
-}
+const testUser: User = {
+  name: "John Doe",
+  email: "john@example.com",
+  title: "Software Engineer",
+  title2: "Web dev",
+  status: "Active",
+  role: "Owner",
+};
+
+const users = ref<User[]>([...Array(10).keys()].map(() => testUser));
 </script>
