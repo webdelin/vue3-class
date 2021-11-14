@@ -1,26 +1,61 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
-import Home from "../views/Home.vue";
 
-const routes: Array<RouteRecordRaw> = [
+import Dashboard from "@/views/Dashboard.vue";
+import Forms from "@/views/Forms.vue";
+import Tables from "@/views/Tables.vue";
+import UIElements from "@/views/UIElements.vue";
+import Login from "@/views/Login.vue";
+import Modal from "@/views/Modal.vue";
+import Card from "@/views/Card.vue";
+import Blank from "@/views/Blank.vue";
+
+const routes: RouteRecordRaw[] = [
   {
     path: "/",
-    name: "Home",
-    component: Home,
+    name: "Login",
+    component: Login,
+    meta: { layout: "empty" },
   },
   {
-    path: "/about",
-    name: "About",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue"),
+    path: "/dashboard",
+    name: "Dashboard",
+    component: Dashboard,
+  },
+  {
+    path: "/forms",
+    name: "Forms",
+    component: Forms,
+  },
+  {
+    path: "/cards",
+    name: "Cards",
+    component: Card,
+  },
+  {
+    path: "/tables",
+    name: "Tables",
+    component: Tables,
+  },
+  {
+    path: "/ui-elements",
+    name: "UIElements",
+    component: UIElements,
+  },
+  {
+    path: "/modal",
+    name: "Modal",
+    component: Modal,
+  },
+  {
+    path: "/blank",
+    name: "Blank",
+    component: Blank,
   },
 ];
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
-  routes,
+  history: createWebHistory(),
+  routes: routes,
 });
 
 export default router;
