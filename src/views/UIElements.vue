@@ -8,26 +8,10 @@
 
       <div class="mt-4">
         <div
-          class="
-            px-4
-            py-4
-            overflow-x-auto
-            bg-white
-            rounded-md
-            whitespace-nowrap
-          "
+          class="px-4 py-4 overflow-x-auto bg-white rounded-md whitespace-nowrap"
         >
           <div
-            class="
-              inline-flex
-              w-full
-              max-w-sm
-              ml-3
-              overflow-hidden
-              bg-white
-              rounded-lg
-              shadow-md
-            "
+            class="inline-flex w-full max-w-sm ml-3 overflow-hidden bg-white rounded-lg shadow-md"
           >
             <div class="flex items-center justify-center w-12 bg-green-500">
               <svg
@@ -52,16 +36,7 @@
           </div>
 
           <div
-            class="
-              inline-flex
-              w-full
-              max-w-sm
-              ml-3
-              overflow-hidden
-              bg-white
-              rounded-lg
-              shadow-md
-            "
+            class="inline-flex w-full max-w-sm ml-3 overflow-hidden bg-white rounded-lg shadow-md"
           >
             <div class="flex items-center justify-center w-12 bg-blue-500">
               <svg
@@ -86,16 +61,7 @@
           </div>
 
           <div
-            class="
-              inline-flex
-              w-full
-              max-w-sm
-              ml-3
-              overflow-hidden
-              bg-white
-              rounded-lg
-              shadow-md
-            "
+            class="inline-flex w-full max-w-sm ml-3 overflow-hidden bg-white rounded-lg shadow-md"
           >
             <div class="flex items-center justify-center w-12 bg-yellow-500">
               <svg
@@ -118,16 +84,7 @@
           </div>
 
           <div
-            class="
-              inline-flex
-              w-full
-              max-w-sm
-              ml-3
-              overflow-hidden
-              bg-white
-              rounded-lg
-              shadow-md
-            "
+            class="inline-flex w-full max-w-sm ml-3 overflow-hidden bg-white rounded-lg shadow-md"
           >
             <div class="flex items-center justify-center w-12 bg-red-500">
               <svg
@@ -157,18 +114,7 @@
       <h4 class="text-gray-600">Inputs</h4>
 
       <div class="mt-4">
-        <div
-          class="
-            flex
-            items-center
-            px-4
-            py-4
-            space-x-4
-            overflow-x-auto
-            bg-white
-            rounded-md
-          "
-        >
+        <div class="flex items-center px-4 py-4 space-x-4 overflow-x-auto bg-white rounded-md">
           <label>
             <input
               type="radio"
@@ -189,27 +135,13 @@
             <input
               type="email"
               placeholder="Email"
-              class="
-                block
-                w-full
-                mt-1
-                border-gray-200
-                rounded-md
-                focus:border-indigo-600
-                focus:ring
-                focus:ring-opacity-40
-                focus:ring-indigo-500
-              "
+              class="block w-full mt-1 border-gray-200 rounded-md focus:border-indigo-600 focus:ring focus:ring-opacity-40 focus:ring-indigo-500"
             />
           </label>
 
           <div class="relative mx-4 lg:mx-0">
             <span class="absolute inset-y-0 left-0 flex items-center pl-3">
-              <svg
-                class="w-5 h-5 text-gray-500"
-                viewBox="0 0 24 24"
-                fill="none"
-              >
+              <svg class="w-5 h-5 text-gray-500" viewBox="0 0 24 24" fill="none">
                 <path
                   d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z"
                   stroke="currentColor"
@@ -221,19 +153,7 @@
             </span>
 
             <input
-              class="
-                w-32
-                pl-10
-                pr-4
-                text-indigo-600
-                border-gray-200
-                rounded-md
-                sm:w-64
-                focus:border-indigo-600
-                focus:ring
-                focus:ring-opacity-40
-                focus:ring-indigo-500
-              "
+              class="w-32 pl-10 pr-4 text-indigo-600 border-gray-200 rounded-md sm:w-64 focus:border-indigo-600 focus:ring focus:ring-opacity-40 focus:ring-indigo-500"
               type="text"
               placeholder="Search"
             />
@@ -247,135 +167,35 @@
       <h4 class="text-gray-600">Buttons</h4>
 
       <div class="mt-4">
-        <div
-          class="flex px-4 py-4 space-x-4 overflow-x-auto bg-white rounded-md"
-        >
-          <button
-            class="
-              px-4
-              py-2
-              font-medium
-              tracking-wide
-              text-white
-              capitalize
-              transition-colors
-              duration-200
-              transform
-              bg-indigo-600
-              rounded-md
-              hover:bg-indigo-500
-              focus:outline-none focus:bg-indigo-500
-            "
-          >
-            Primary
+        <div class="flex px-4 py-4 space-x-4 overflow-x-auto bg-white rounded-md">
+          <button class="px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-indigo-600 rounded-md hover:bg-indigo-500 focus:outline-none focus:bg-indigo-500">
+              Primary
+          </button>
+          
+          <button class="flex items-center px-2 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-indigo-600 rounded-md hover:bg-indigo-500 focus:outline-none focus:bg-indigo-500">
+              <svg class="w-5 h-5 mx-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z" clip-rule="evenodd" />
+              </svg>
+              <span class="mx-1">Refresh</span>
           </button>
 
-          <button
-            class="
-              flex
-              items-center
-              px-2
-              py-2
-              font-medium
-              tracking-wide
-              text-white
-              capitalize
-              transition-colors
-              duration-200
-              transform
-              bg-indigo-600
-              rounded-md
-              hover:bg-indigo-500
-              focus:outline-none focus:bg-indigo-500
-            "
-          >
-            <svg
-              class="w-5 h-5 mx-1"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z"
-                clip-rule="evenodd"
-              />
-            </svg>
-            <span class="mx-1">Refresh</span>
-          </button>
 
           <div class="flex items-center">
-            <button
-              class="
-                px-4
-                py-2
-                font-medium
-                tracking-wide
-                text-white
-                capitalize
-                transition-colors
-                duration-200
-                transform
-                bg-indigo-600
-                rounded-md
-                hover:bg-indigo-500
-                focus:outline-none focus:bg-indigo-500
-              "
-            >
-              Download
-            </button>
+              <button class="px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-indigo-600 rounded-md hover:bg-indigo-500 focus:outline-none focus:bg-indigo-500">Download</button>
+              
+              <span class="border border-transparent"></span>
 
-            <span class="border border-transparent"></span>
+              <div class="relative">
+                  <!-- Menu toggle button --> 
+                  <button class="relative z-10 block p-2 transition-colors duration-200 transform bg-indigo-600 rounded-md hover:bg-indigo-500 focus:outline-none focus:bg-indigo-500">
+                      <svg class="w-6 h-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
+                      </svg>
+                  </button>
 
-            <div class="relative">
-              <!-- Menu toggle button -->
-              <button
-                class="
-                  relative
-                  z-10
-                  block
-                  p-2
-                  transition-colors
-                  duration-200
-                  transform
-                  bg-indigo-600
-                  rounded-md
-                  hover:bg-indigo-500
-                  focus:outline-none focus:bg-indigo-500
-                "
-              >
-                <svg
-                  class="w-6 h-6 text-white"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"
-                  />
-                </svg>
-              </button>
-
-              <!-- Menu list -->
-              <div
-                class="
-                  absolute
-                  right-0
-                  z-20
-                  w-48
-                  mt-2
-                  overflow-hidden
-                  bg-white
-                  rounded-md
-                  shadow-xl
-                  dark:bg-gray-700
-                "
-              ></div>
-            </div>
+                  <!-- Menu list -->
+                  <div class="absolute right-0 z-20 w-48 mt-2 overflow-hidden bg-white rounded-md shadow-xl dark:bg-gray-700"></div>
+              </div>
           </div>
         </div>
       </div>
@@ -390,70 +210,27 @@
           <div class="flex mr-4 rounded">
             <a
               href="#"
-              class="
-                px-3
-                py-2
-                ml-0
-                leading-tight
-                text-indigo-700
-                bg-white
-                border border-r-0 border-gray-200
-                rounded-l
-                hover:bg-indigo-500 hover:text-white
-              "
+              class="px-3 py-2 ml-0 leading-tight text-indigo-700 bg-white border border-r-0 border-gray-200 rounded-l hover:bg-indigo-500 hover:text-white"
               ><span>Previous</span></a
             >
             <a
               href="#"
-              class="
-                px-3
-                py-2
-                leading-tight
-                text-indigo-700
-                bg-white
-                border border-r-0 border-gray-200
-                hover:bg-indigo-500 hover:text-white
-              "
+              class="px-3 py-2 leading-tight text-indigo-700 bg-white border border-r-0 border-gray-200 hover:bg-indigo-500 hover:text-white"
               ><span>1</span></a
             >
             <a
               href="#"
-              class="
-                px-3
-                py-2
-                leading-tight
-                text-indigo-700
-                bg-white
-                border border-r-0 border-gray-200
-                hover:bg-indigo-500 hover:text-white
-              "
+              class="px-3 py-2 leading-tight text-indigo-700 bg-white border border-r-0 border-gray-200 hover:bg-indigo-500 hover:text-white"
               ><span>2</span></a
             >
             <a
               href="#"
-              class="
-                px-3
-                py-2
-                leading-tight
-                text-indigo-700
-                bg-white
-                border border-r-0 border-gray-200
-                hover:bg-indigo-500 hover:text-white
-              "
+              class="px-3 py-2 leading-tight text-indigo-700 bg-white border border-r-0 border-gray-200 hover:bg-indigo-500 hover:text-white"
               ><span>3</span></a
             >
             <a
               href="#"
-              class="
-                px-3
-                py-2
-                leading-tight
-                text-indigo-700
-                bg-white
-                border border-gray-200
-                rounded-r
-                hover:bg-indigo-500 hover:text-white
-              "
+              class="px-3 py-2 leading-tight text-indigo-700 bg-white border border-gray-200 rounded-r hover:bg-indigo-500 hover:text-white"
               ><span>Next</span></a
             >
           </div>

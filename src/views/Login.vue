@@ -29,17 +29,7 @@
           <span class="text-sm text-gray-700">Email</span>
           <input
             type="email"
-            class="
-              block
-              w-full
-              mt-1
-              border-gray-200
-              rounded-md
-              focus:border-indigo-600
-              focus:ring
-              focus:ring-opacity-40
-              focus:ring-indigo-500
-            "
+            class="block w-full mt-1 border-gray-200 rounded-md focus:border-indigo-600 focus:ring focus:ring-opacity-40 focus:ring-indigo-500"
             v-model="email"
           />
         </label>
@@ -48,17 +38,7 @@
           <span class="text-sm text-gray-700">Password</span>
           <input
             type="password"
-            class="
-              block
-              w-full
-              mt-1
-              border-gray-200
-              rounded-md
-              focus:border-indigo-600
-              focus:ring
-              focus:ring-opacity-40
-              focus:ring-indigo-500
-            "
+            class="block w-full mt-1 border-gray-200 rounded-md focus:border-indigo-600 focus:ring focus:ring-opacity-40 focus:ring-indigo-500"
             v-model="password"
           />
         </label>
@@ -66,18 +46,7 @@
         <div class="flex items-center justify-between mt-4">
           <div>
             <label class="inline-flex items-center">
-              <input
-                type="checkbox"
-                class="
-                  text-indigo-600
-                  border-gray-200
-                  rounded-md
-                  focus:border-indigo-600
-                  focus:ring
-                  focus:ring-opacity-40
-                  focus:ring-indigo-500
-                "
-              />
+              <input type="checkbox" class="text-indigo-600 border-gray-200 rounded-md focus:border-indigo-600 focus:ring focus:ring-opacity-40 focus:ring-indigo-500" />
               <span class="mx-2 text-sm text-gray-600">Remember me</span>
             </label>
           </div>
@@ -94,16 +63,7 @@
         <div class="mt-6">
           <button
             type="submit"
-            class="
-              w-full
-              px-4
-              py-2
-              text-sm text-center text-white
-              bg-indigo-600
-              rounded-md
-              focus:outline-none
-              hover:bg-indigo-500
-            "
+            class="w-full px-4 py-2 text-sm text-center text-white bg-indigo-600 rounded-md focus:outline-none hover:bg-indigo-500"
           >
             Sign in
           </button>

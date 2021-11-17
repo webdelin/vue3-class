@@ -5,61 +5,44 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit",
-    "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "register-service-worker": "^1.7.1",
-    "tslib": "^2.0.1",
-    "vue": "^3.0.0",
-    "vue-class-component": "^8.0.0-0",
-    "vue-property-decorator": "^9.1.2",
     "@tailwindcss/aspect-ratio": "^0.2.0",
     "@tailwindcss/forms": "^0.2.1",
     "@tailwindcss/typography": "^0.4.0",
-    "vue-router": "^4.0.0-0",
-    "vuex": "^4.0.0-0",
+    "core-js": "^3.6.5",
+    "s-vuex-class": "0.4.1",
+    "vue": "3.2.20",
+    "vue-class-component": "8.0.0-rc.1",
+    "vue-decorator": "1.1.3",
+    "vue-loader-v16": "16.0.0-beta.5.4",
+    "vue-property-decorator": "10.0.0-rc.3",
+    "vue-router": "4.0.11",
+    "vuex": "4.0.2",
     "vuex-class": "^0.3.2",
     "vuex-class-modules": "^1.3.0"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.19",
+    "@tailwindcss/postcss7-compat": "^2.2.17",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
-    "@vue/cli-plugin-babel": "^4.5.15",
-    "@vue/cli-plugin-e2e-cypress": "~4.5.0",
-    "@vue/cli-plugin-eslint": "^3.1.1",
-    "@vue/cli-plugin-router": "3.12.1",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-plugin-typescript": "~4.5.0",
-    "@vue/cli-plugin-unit-jest": "^3.12.1",
     "@vue/cli-plugin-vuex": "~4.5.0",
-    "@vue/cli-service": "~4.5.6",
-    "@vue/compiler-sfc": "3.0.0",
-    "@vue/eslint-config-prettier": "^6.0.0",
-    "@vue/eslint-config-typescript": "^5.1.0",
-    "@vue/test-utils": "^2.0.0-beta.5",
-    "autoprefixer": "^9.8.6",
-    "eslint": "^7.9.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-vue": "^7.0.0-beta.3",
-    "lint-staged": "^10.4.0",
-    "prettier": "^2.1.2",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "autoprefixer": "^9",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "postcss": "^7",
     "sass": "^1.26.11",
     "sass-loader": "^10.0.2",
-    "tailwindcss": "^1.8.10",
-    "typescript": "^3.9.7",
-    "vue-jest": "^5.0.0-alpha.4"
-  },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
-  "lint-staged": {
-    "*.{js,jsx,vue,ts,tsx}": [
-      "vue-cli-service lint",
-      "git add"
-    ]
-  },
-  "keywords": []
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+    "typescript": "~4.1.5",
+    "vue-tsc": "^0.3.0"
+  }
 }
