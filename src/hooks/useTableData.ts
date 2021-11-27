@@ -1,5 +1,3 @@
-import { ref } from 'vue';
-
 export interface ISimpleTableData {
   city: string;
   totalOrders: string;

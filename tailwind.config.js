@@ -1,22 +1,45 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
-
-const whitelist = ["gray", "red", "orange", "yellow", "green", "teal", "blue", "purple", "pink"].reduce(
-    (result, color) => result.push(`text-${color}-600`, `bg-${color}-600`, `bg-${color}-500`) && result, [])
-
+const colors = require('tailwindcss/colors')
 module.exports = {
     mode: 'jit',
     purge: {
         content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-        options: {
-            whitelist,
-        }
+        options: {}
     },
     theme: {
-        extend: {
-            fontFamily: {
-                sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        theme: {
+            screens: {
+                sm: '480px',
+                md: '768px',
+                lg: '976px',
+                xl: '1440px',
             },
-        },
+            colors: {
+                gray: colors.coolGray,
+                blue: colors.lightBlue,
+                red: colors.rose,
+                pink: colors.fuchsia,
+            },
+            fontFamily: {
+                sans: ['Graphik', 'sans-serif'],
+                serif: ['Merriweather', 'serif'],
+            },
+            extend: {
+                spacing: {
+                    '128': '32rem',
+                    '144': '36rem',
+                },
+                borderRadius: {
+                    '4xl': '2rem',
+                }
+            },
+            borderRadius: {
+                'none': '0',
+                'sm': '.125rem',
+                DEFAULT: '.25rem',
+                'lg': '.5rem',
+                'full': '9999px',
+            },
+        }
     },
     plugins: [
         require('@tailwindcss/forms'),

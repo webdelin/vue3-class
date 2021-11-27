@@ -122,7 +122,7 @@ export default class Header extends Vue {
   private readonly store = useStore(key);
   public dropdownOpen = false
   public onOpen() {
-    return this.store.commit('onOpen');
+    this.store.commit('onOpen');
   }
 }
 </script>

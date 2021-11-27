@@ -144,7 +144,7 @@
 </template>
 
 <script setup lang="ts">
-import { defineComponent, ref } from "vue";
+import { ref } from "vue";
 
 interface User {
   username: string;
