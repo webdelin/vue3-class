@@ -39,8 +39,10 @@
           >
         </div>
       </div>
+
       <button @click="onOpen" class="px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-indigo-600 rounded-md hover:bg-indigo-500 focus:outline-none focus:bg-indigo-500">
-        close
+        <mdicon name="hamburger" />
+        <mdicon name="cog" :spin="true" />
       </button>
       <nav class="mt-10">
         <router-link
@@ -187,6 +189,7 @@
           <span class="mx-4">Blank</span>
         </router-link>
       </nav>
+      <mdicon name="alert" :width="512" :height="512" />
     </div>
   </div>
 </template>
@@ -194,7 +197,9 @@
 import { Options, Vue } from "vue-class-component";
 import {key} from "@/store";
 import {useStore} from "vuex";
-@Options({})
+
+@Options({
+})
 export default class Sidebar extends Vue {
   private readonly store = useStore(key);
   public onOpen() {
@@ -206,5 +211,6 @@ export default class Sidebar extends Vue {
   get inactiveClass():string {
     return "border-gray-900 text-gray-500 hover:bg-gray-600 hover:bg-opacity-25 hover:text-gray-100";
   }
+
 }
 </script>
